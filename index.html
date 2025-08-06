@@ -31,7 +31,7 @@
             responseContainer.textContent = 'Chargement...';
 
             // Utilise l'API Fetch pour appeler notre endpoint /db
-            fetch('http://api:3001/db')
+            fetch('https://api:3001/db')
                 .then(response => {
                     if (!response.ok) {
                         // Si la réponse n'est pas OK (ex: erreur 500), on lève une erreur
